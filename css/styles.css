@@ -63,14 +63,7 @@ body {
     font-size: 32px;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-.main{
-    flex-grow: 1;
-}
+
 /** HEADER */
 
 .header {
@@ -319,3 +312,85 @@ body {
 .h-100{
     height: 100px;
 }
+.bg-color-grey{
+    background-color: lightgray;
+}
+
+/*! GALLERY______________________ */
+
+.navigation {
+    position: fixed;
+    left: 0;
+    top: calc(50vh - 192.5px);
+}
+.navigation > div{
+    border: 1px solid #000;
+    text-align: center;
+    background:rgb(92, 164, 187);
+}
+
+.navigation > div:hover{
+    background-color: rgb(43, 171, 214);
+}
+.navigation > div:active{
+    background-color: rgb(7, 110, 145)
+}
+
+.navigation > div > a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 10px;
+    display: block;
+}
+
+.images-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-top: 30px;
+}
+.image {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+
+}
+.image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.images-container > div {
+    position: relative;
+}
+
+.image > p {
+    height: 250px;
+    background: rgb(212, 212, 212,0.55);
+    position: absolute;
+    top: 50%;
+    margin-top: -125px;
+    text-align: center;
+    display: none;
+}
+
+.image:hover > p {
+    display: block;
+}
+
+/*! GALLERY_______________END_______ */
+
+/*! TABLE___________ */
+table tr td {
+    border: 2px solid black;
+    border-collapse:collapse;
+    font-size: 36px;
+    }
+    tr td {
+        width: 150px;
+        height: 100px;
+    }
+    
+/*! TABLE___________END */
