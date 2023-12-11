@@ -394,3 +394,19 @@ table tr td {
     }
     
 /*! TABLE___________END */
+/* ! FLOAT______________ */
+
+.float-l{
+    float:left;
+}
+.w-400{
+    width: 400px;
+}
+.container-float{
+    width: 1200px; 
+    margin: 0 auto;
+}
+.w-800{
+    width: 800px;
+}
+/* ! FLOAT______________END */
