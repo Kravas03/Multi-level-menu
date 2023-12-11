@@ -49,11 +49,6 @@ table {
 }
 /* _________________________________________________________________ */
 
-html, body {
-    height: 100%;
-}
-
-
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -99,11 +94,14 @@ body {
 
 .nav {
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    padding-right: 80px;
 }
 .nav a {
     text-decoration: none;
     color: #161616;
+    text-transform: uppercase;
+    font-size: 24px;
 }
 .nav a:hover {
     color:#D8D8D6;
@@ -264,3 +262,60 @@ body {
     
 }
 
+/*!   AMELIA WEBSITE _________________________________________  */
+
+/*! INLINE-BLOCK STYLE */
+.align-top{
+    vertical-align: top;
+}
+/** FIRST ROW  */
+.fz-0{
+    font-size: 0;
+}
+.t-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fz-20{
+    font-size: 20px;
+}
+.i-block{
+    display: inline-block;
+}
+.h-400{
+    height: 400px;
+}
+.h-200{
+    height: 200px;
+}
+
+.w-800 {
+    width: 800px;
+}
+
+.bg-color-r{
+    background-color: red;
+    outline: 2px solid black;
+}
+.w-400 {
+    width: 400px;
+
+}
+
+
+/** SECOND ROW  */
+.bg-color-g{
+    background-color:rgb(17, 156, 30);
+    outline: 2px solid black;
+    }
+.h-133{
+    height: 133.333px;
+}
+/** THIRD ROW  */
+.bg-color-o{
+    background-color: rgb(232, 130, 6);
+    outline: 2px solid black;
+}
+.h-100{
+    height: 100px;
+}

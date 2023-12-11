@@ -12,9 +12,7 @@
     font-size: 20px;
     width: 400px;
     height: 400px;
-    background-color: red;
-    display: inline-block;
-    border: 1px solid #000;
+
 }
 
 
@@ -37,8 +35,7 @@
     font-size: 20px;
     width: 800px;
     height: 200px;
-    background-color: rgb(17, 156, 30);
-    border: 1px solid #000;
+
 }
 
 .second-column div {
@@ -69,7 +66,7 @@
     font-size: 20px;
     width: 800px;
     height: 200px;
-    background-color: rgb(232, 130, 6);
+
     border: 1px solid #000;
 }
 .triple-div{
