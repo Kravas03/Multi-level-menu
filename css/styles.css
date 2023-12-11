@@ -48,7 +48,7 @@ table {
 	clear: both;
 }
 /* _________________________________________________________________ */
-
+ /*!   AMELIA WEBSITE _________________________________________START  */
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -255,13 +255,12 @@ body {
     
 }
 
-/*!   AMELIA WEBSITE _________________________________________  */
+/*!   AMELIA WEBSITE _________________________________________END  */
 
-/*! INLINE-BLOCK STYLE */
+/*! INLINE-BLOCK STYLE _____________START*/
 .align-top{
     vertical-align: top;
 }
-/** FIRST ROW  */
 .fz-0{
     font-size: 0;
 }
@@ -285,7 +284,6 @@ body {
 .w-800 {
     width: 800px;
 }
-
 .bg-color-r{
     background-color: red;
     outline: 2px solid black;
@@ -294,9 +292,6 @@ body {
     width: 400px;
 
 }
-
-
-/** SECOND ROW  */
 .bg-color-g{
     background-color:rgb(17, 156, 30);
     outline: 2px solid black;
@@ -304,7 +299,6 @@ body {
 .h-133{
     height: 133.333px;
 }
-/** THIRD ROW  */
 .bg-color-o{
     background-color: rgb(232, 130, 6);
     outline: 2px solid black;
@@ -315,8 +309,9 @@ body {
 .bg-color-grey{
     background-color: lightgray;
 }
+/*! INLINE-BLOCK STYLE _____________END*/
 
-/*! GALLERY______________________ */
+/*! GALLERY______________________START */
 
 .navigation {
     position: fixed;
@@ -392,7 +387,20 @@ table tr td {
         width: 150px;
         height: 100px;
     }
-    
+    .table{
+        width: 900px;
+        height: 600px;
+        margin: 100px auto;
+    }
+    .bg-color-y{
+        background-color: rgb(176, 157, 13);
+    }
+    .bg-color-b{
+        background: blue;
+    }
+    .bg-color-dg{
+        background: grey;
+    }
 /*! TABLE___________END */
 /* ! FLOAT______________ */
 
@@ -410,3 +418,8 @@ table tr td {
     width: 800px;
 }
 /* ! FLOAT______________END */
+/*! FLEX___________________START */
+.d-flex{
+    display: flex;
+}
+/*! FLEX___________________END */
