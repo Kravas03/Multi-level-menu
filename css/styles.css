@@ -93,7 +93,7 @@ body {
 .nav {
     display: flex;
     gap: 50px;
-    padding-right: 80px;
+
 }
 .nav a {
     text-decoration: none;
@@ -104,6 +104,22 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
+.home {
+    background:  url(../images/home.svg) no-repeat;
+    padding-left: 30px;
+    background-position:0 0;
+}
+.gallery{
+    background:  url(../images/gallery.svg) no-repeat;
+    padding-left: 30px;
+    background-position:0 0;
+}
+.homework{
+    background:  url(../images/arrowdown.svg) no-repeat;
+    padding-right: 30px;
+    background-position:100% 0;
+}
+
 .nav a:hover {
     color:#D8D8D6;
 }
@@ -123,7 +139,7 @@ body {
     position: absolute;
     left: 0;
     top: 100%;
-    display: none;
+    /* display: none; */
     padding-top: 25px;
 }
 
@@ -133,9 +149,10 @@ body {
 .flex-nav{
     position: relative;
 }
-.flex-nav div a {
+.flex-nav  a {
     font-family: 'Oswald', sans-serif;
 }
+
 .flex-link{
     padding: 15px 10px;
     text-align: center;
@@ -147,14 +164,19 @@ body {
 .flex-nav > div {
     display: none;
     position: absolute;
-    left: -32%;
+    right:100%;
     top: 0;
 
 }
 .flex-nav:hover div {
     display: block;
 }
-
+#flex {
+    background:  #81A36B url(../images/arrowleft.svg) no-repeat;
+    padding-left: 35px;
+    background-position:10% 50%;
+    
+}
 
 /** MAIN  */
 
@@ -305,10 +327,26 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+
 }
-.netw a {
-    text-decoration: none;
-    
+.instagram{
+    width: 25px;
+    display: block;
+    height: 24px;
+    background:url(../images/media_1.svg) no-repeat;
+}
+.telegram{
+    width: 30px;
+    display: block;
+    height: 24px;
+    background:url(../images/media_2.svg) no-repeat;
+}
+
+.viber{
+    width: 24px;
+    display: block;
+    height: 24px;
+    background:url(../images/media_3.svg) no-repeat;
 }
 
 /*!   AMELIA WEBSITE _________________________________________END  */
