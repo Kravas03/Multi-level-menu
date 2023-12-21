@@ -69,6 +69,44 @@ body {
 }
 
 
+
+
+/*! FIX MENU START*/
+.wrapper{
+    padding-left: 50px;
+    transition: all .6s ease;
+}
+.fix-menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 50px;
+    background:#c2bdbd;
+    transition: all .6s ease;
+    overflow: hidden;
+}
+ 
+.fix-menu:hover{
+    max-width: 300px;
+}
+.fix-menu:hover + .wrapper{
+    padding-left: 300px;
+}
+.fix-left li {
+    background: #878080;
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+.fix-link{
+    display: block;
+}
+.span svg {
+    width: 40px;
+    height: 40px;
+}
+/*! FIX MENU END*/
+
 /** HEADER */
 
 .header {
