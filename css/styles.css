@@ -139,12 +139,13 @@ body {
     position: absolute;
     left: 0;
     top: 100%;
-    display: none;
+    transform: translateY(-200%);
     padding-top: 25px;
+    transition: transform .6s ease;
 }
 
 .nav > li:hover .h-works-list{
-    display: block;
+ transform: translateY(0);
 }
 .flex-nav{
     position: relative;
@@ -162,14 +163,15 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 .flex-nav > div {
-    display: none;
+    transform: translateX(100%);
     position: absolute;
     right:100%;
     top: 0;
-
+    transition: transform .6s ease;
+    z-index: -1;
 }
 .flex-nav:hover div {
-    display: block;
+    transform: translateX(0);
 }
 #flex {
     background:  #81A36B url(../images/arrowleft.svg) no-repeat;
