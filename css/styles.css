@@ -73,7 +73,7 @@ body {
 
 /*! FIX MENU START*/
 .wrapper{
-    padding-left: 50px;
+    padding-left: 90px;
     transition: all .6s ease;
 }
 .fix-menu{
@@ -81,29 +81,54 @@ body {
     left: 0;
     top: 0;
     bottom: 0;
-    max-width: 50px;
+    max-width: 90px;
     background:#c2bdbd;
     transition: all .6s ease;
     overflow: hidden;
+    width: 100%;
+    padding-top: 84px;
 }
- 
+
 .fix-menu:hover{
-    max-width: 300px;
+    max-width: 260px;
 }
 .fix-menu:hover + .wrapper{
-    padding-left: 300px;
+    padding-left: 260px;
 }
 .fix-left li {
     background: #878080;
-    padding: 10px 20px;
-    border: 1px solid #000;
+    border: 3px solid #000;
+    padding-left: 5px;
 }
 .fix-link{
-    display: block;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 15px 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:inherit;
 }
-.span svg {
-    width: 40px;
-    height: 40px;
+span{
+    line-height: 10px;
+    overflow: hidden;
+    border: 1px solid #000;
+    transform: rotate(45deg); 
+    padding: 3px;
+    flex-shrink: 0;
+}
+.fix-image{
+    width: 50px;
+    height: 50px;
+    transform: rotate(-45deg);
+    fill: #fff;
+    transition: transform .5s ease;
+}
+.fix-link:hover .fix-image{
+    transform: rotate(-45deg) scale(1.57);
+}
+.fix-link:hover {
+    color:#D8D8D6;
 }
 /*! FIX MENU END*/
 
